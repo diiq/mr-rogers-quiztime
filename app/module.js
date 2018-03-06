@@ -1,5 +1,5 @@
-import angular from 'angular';
-import angularRoute from 'angular-route';
+const angular = require('angular');
+require('angular-route');
 
 angular.module("finalAssessment", ["ngRoute"]);
 
