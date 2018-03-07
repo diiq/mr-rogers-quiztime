@@ -42,7 +42,7 @@ angular.module("finalAssessment").service("QuizService", function() {
     ])
   ];
   this.results = [];
-  
+
   this.setAnswer = function(questionNumber, answerNumber) {
 
   }
