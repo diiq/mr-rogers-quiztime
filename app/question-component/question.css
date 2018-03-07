@@ -1,25 +1,18 @@
-my-sample h1 {
-  text-align: center;
-  color: #FFF;
-  font-size: 72px;
-}
-
-.main-question-container {
+quiz-question .main-question-container {
   background-color: #FAFAFA;
   color: #000;
   padding: 15px;
   margin: 75px;
-  /* border-radius: 50px; */
 }
 
-.answers-container {
+quiz-question .answers-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.answer {
+quiz-question .answer {
   height: 200px;
   width: 45%;
   background-color: #F5F5F5;

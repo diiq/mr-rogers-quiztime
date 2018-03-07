@@ -1,7 +1,8 @@
 angular.module("finalAssessment").component("quizQuestion", {
   template: require('./question.html'),
   bindings: {
-    question: '<'
+    question: '<',
+    questionNumber: '<'
   },
 
   controller: function() {}

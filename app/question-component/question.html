@@ -1,7 +1,7 @@
 <div class="main-question-container">
   <div class="question-text-container">{{$ctrl.question.text}}</div>
   <div class="answers-container">
-    <picture-answer class="answer" mg-if="answer.type === 'image'" ng-repeat="answer in $ctrl.question.answers"></picture-answer>
-    <text-answer class="answer"  mg-if="answer.type === 'text'" ng-repeat="answer in $ctrl.question.answers"><text-answer>
+    <picture-answer class="answer" answer="answer" question-number="$ctrl.questionNumber" answer-number="$index" ng-if="answer.type === 'image'" ng-repeat="answer in $ctrl.question.answers"></picture-answer>
+    <text-answer class="answer" answer="answer" question-number="$ctrl.questionNumber" answer-number="$index" ng-if="answer.type === 'text'" ng-repeat="answer in $ctrl.question.answers"><text-answer>
   </div>
 </div>
