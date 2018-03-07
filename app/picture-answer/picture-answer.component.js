@@ -7,6 +7,7 @@ angular.module("finalAssessment").component("pictureAnswer", {
   },
   controller: ["QuizService", function(QuizService) {
     this.setAnswer = function() {
+      console.log(this.questionNumber);
       QuizService.setAnswer(this.questionNumber, this.answerNumber);
     }
   }]

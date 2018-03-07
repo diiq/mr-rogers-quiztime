@@ -8,5 +8,9 @@ angular.module("finalAssessment").component("mySample", {
     this.questionNumber = function() {
       return QuizService.currentQuestionNumber;
     }
+
+    this.result = function() {
+      return QuizService.result();
+    }
   }]
 });

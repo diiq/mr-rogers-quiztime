@@ -6,9 +6,9 @@ angular.module("finalAssessment").component("textAnswer", {
     answerNumber: "<",
   },
   controller: ["QuizService", function(QuizService) {
-    this.addAnswer = function()  {
+    this.setAnswer = function()  {
+      console.log("uhhh")
       QuizService.setAnswer(this.questionNumber, this.answerNumber);
-
     }
   }]
 });
