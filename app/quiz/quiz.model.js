@@ -30,6 +30,12 @@ export class Quiz {
   answerFor(questionNumber) {
     return this.question[questionNumber].selectedAnswer();
   }
+
+  reset() {
+    this.questions.forEach(
+      q => q.clearAnswer()
+    );
+  }
 }
 
 export class Question {
