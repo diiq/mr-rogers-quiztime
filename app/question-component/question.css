@@ -5,6 +5,11 @@ quiz-question .main-question-container {
   margin: 75px;
 }
 
+quiz-question .question-text-container {
+  font-size: 32px;
+  margin: 15px;
+}
+
 quiz-question .answers-container {
   display: flex;
   flex-direction: row;

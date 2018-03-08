@@ -1,13 +1,16 @@
 picture-answer .answer-button {
   width: 100%;
-  height: 300px;
-  overflow: hidden;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: transform 125ms;
+}
+
+picture-answer .answer-button:hover {
+  transform: scale(1.05);
 }
 
 picture-answer .answer-button img {
   width: 100%;
-}
-
-.selected {
-
 }
