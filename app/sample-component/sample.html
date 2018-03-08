@@ -1,11 +1,7 @@
 <div>
   <quiz-question question="$ctrl.question()" question-number="$ctrl.questionNumber()"></quiz-question>
 
-  Question should be: {{$ctrl.question().text}}
-
-
   <div ng-if="!$ctrl.question()">
-    <h2>{{$ctrl.result().name}}</h2>
-    <p>{{$ctrl.result().description}}</p>
+    <result-page>Blah</result-page>
   </div>
 </div>
