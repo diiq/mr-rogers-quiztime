@@ -24,5 +24,10 @@ angular.module("finalAssessment").service("QuizService", function() {
   this.currentQuestion = function() {
     return quiz.questions[this.currentQuestionNumber];
   }
+
+  this.reset = function() {
+    quiz.reset();
+    this.currentQuestionNumber = 0;
+  }
 });
 

@@ -58,7 +58,7 @@ export const quiz = new Quiz([
     })
   ])
 
-  
+
 ], [
   new Result("mop", "Being a mop is a-ok.", ""),
   new Result("bucket", "You have an inside and an outside.", ""),
