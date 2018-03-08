@@ -1,5 +1,41 @@
-.implement-image {
-  height: 200px;
-  width: 200px;
-  
+result-page .result-box {
+  background-color: #f5f5f5;
+  margin-bottom: 32px;
+  border-radius: 5px;
+  overflow: hidden;
+  transform: translateY(0);
+}
+
+result-page .heading {
+  height: 400px;
+  color: #fff;
+  background-position: center;
+  background-size: cover;
+}
+
+result-page h1 {
+  display: block;
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+  padding: 32px 48px;
+  margin: 0;
+}
+
+result-page .description {
+  max-width: 600px;
+  padding: 32px 48px 48px;
+}
+
+result-page .retake {
+  border: none;
+  border-radius: 5px;
+  padding: 24px;
+  background-color: #d30;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+}
+
+result-page .retake:hover {
+  background-color: #e30;
 }

@@ -5,13 +5,19 @@ text-answer button {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 32px;
+  font-size: 24px;
   padding: 32px;
-  background-color: #eee;
+  background-color: #999;
+  color: #fff;
   cursor: pointer;
-  transition: transform 125ms;
+  transition: transform 125ms, box-shadow 125ms;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 text-answer button:hover {
   transform: scale(1.05);
+  box-shadow: 5px 5px 5px rgba(0,0,0,.1);
 }

@@ -1,8 +1,3 @@
-<div>
-  <quiz-question question="$ctrl.question()" question-number="$ctrl.questionNumber()"></quiz-question>
-
-  <div ng-if="!$ctrl.question()">
-    <result-page>Blah</result-page>
-  </div>
-  <breadcrumb-component></breadcrumb-component>
-</div>
+<quiz-question question="$ctrl.question()" question-number="$ctrl.questionNumber()" ng-if="$ctrl.question()"></quiz-question>
+<result-page ng-if="!$ctrl.question()"></result-page>
+<breadcrumb-component ng-if="$ctrl.question()"></breadcrumb-component>

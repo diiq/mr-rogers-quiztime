@@ -4,13 +4,14 @@ picture-answer .answer-button {
   background-size: cover;
   background-position: center;
   cursor: pointer;
-  transition: transform 125ms;
+  border: none;
+  transition: transform 125ms, box-shadow 125ms;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 picture-answer .answer-button:hover {
   transform: scale(1.05);
-}
-
-picture-answer .answer-button img {
-  width: 100%;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.1);
 }

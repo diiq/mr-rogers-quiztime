@@ -1,10 +1,12 @@
-<div>
-  <p>You are a {{$ctrl.result.name}}! {{$ctrl.result.description}}</p>
-</div>
-<div>
-  <img class="implement-image" ng-src="{{$ctrl.result.image}}">
+<div class="result-box">
+  <div class="heading" style="background-image: url({{$ctrl.result.image}})">
+    <h1>You are a {{$ctrl.result.name}}!</h1>
+  </div>
+  <div class="description">
+    <h3>You are a {{$ctrl.result.name}}</h3>
+    <p>{{$ctrl.result.description}}</p>
+  </div>
 </div>
 
-<div>
-  <button ng-click="$ctrl.reset()">Retake</button>
-</div>
+<button class="retake" ng-click="$ctrl.reset()">&larr; Retake</button>
+

@@ -60,7 +60,7 @@ export const quiz = new Quiz([
 
 
 ], [
-  new Result("mop", "Being a mop is a-ok.", ""),
-  new Result("bucket", "You have an inside and an outside.", ""),
-  new Result("dustpan", "Couldn't be worse.", "")
+  new Result("mop", "Being a mop is a-ok.", "https://media1.s-nbcnews.com/i/newscms/2017_30/1230740/how-often-should-you-mop-today-tease-170724_74d31634de3a8984109b964685751857.jpg"),
+  new Result("bucket", "You have an inside and an outside.", "https://blogwillis-zippykid.netdna-ssl.com/wp-content/uploads/2012/09/5-colored-buckets_645x400.jpg"),
+  new Result("dustpan", "Couldn't be worse.", "https://reference-board.s3.amazonaws.com/references/images/06a/47d/b3-/medium/open-uri20180308-4-1gzjxmq?1520527002.png")
 ]);
